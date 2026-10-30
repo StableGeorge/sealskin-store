@@ -1,0 +1,14 @@
+- id: "zotero-custom"
+  name: "Zotero (custom)"
+  logo: "https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/zotero-icon.png"
+  url: "https://www.zotero.org"
+  provider: "docker"
+  provider_config:
+    image: "my-zotero:latest"
+    port: 3000
+    nvidia_support: false
+    dri3_support: true
+    type: "app"
+    autostart: true
+    url_support: false
+    open_support: false
